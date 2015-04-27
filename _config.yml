@@ -1,0 +1,46 @@
+# Site settings
+title: Plog
+email: 
+description: > # this means to ignore newlines until "baseurl:"
+  Notes to self.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+twitter_username: jhnklly
+github_username:  jhnklly
+
+# Build settings
+#markdown: kramdown
+markdown: redcarpet
+# highlighter: rouge
+highlighter: pygments
+
+markdown_ext:  markdown,mkdown,mkdn,mkd,md
+
+# http://ajoz.github.io/2014/06/29/i-want-my-github-flavored-markdown/
+redcarpet:
+  extensions: ["tables", "autolink", "strikethrough", "space_after_headers", "with_toc_data", "fenced_code_blocks", "no_intra_emphasis", "superscript"]
+
+# Exploiting this config file to store a global object in a single place
+# See 
+
+exploits: 
+  - date: 1976-02-06
+    title: born
+    tags: 
+        hilo5
+        l1
+    prose:
+        When in the course of human events
+    
+  - date: 1977-02-06
+    title: b-day 1
+    tags: 
+        hilo5
+        l1
+    prose:
+        it becomes necessary for one
+
+
+
+
+
