@@ -22,3 +22,21 @@ redcarpet:
 
 # Exploiting this config file to store a global object in a single place
 # See 
+
+exploits: 
+  - date: 2015-04-27
+    title: yourenottheonlyone
+    tags: 
+        hilo5
+        l4
+    prose:
+        Not sure how this is going to work. Want
+        <ol>
+          <li> jekyll
+          <li> Ideally, all posts in one file
+          <li> Can misuse _config.yml
+          <li> Can use html in config; but not _markdown_
+          <li> editable online (prose.io)
+          <li> anoni mouse
+        </ol>
+        But last two would require paid account? Instead, make this yourenottheonlyone account. Had always wanted to do a public anonymous blog anyway. (Screamsecrets)

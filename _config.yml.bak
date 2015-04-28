@@ -24,7 +24,6 @@ redcarpet:
 # See 
 
 exploits: 
-
   - date: 2015-04-27
     title: yourenottheonlyone
     tags: 
