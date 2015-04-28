@@ -21,7 +21,6 @@ redcarpet:
   extensions: ["tables", "autolink", "strikethrough", "space_after_headers", "with_toc_data", "fenced_code_blocks", "no_intra_emphasis", "superscript"]
 
 # Exploiting this config file to store a global object in a single place
-# See 
 
 exploits: 
   - date: 2015-04-27
