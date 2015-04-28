@@ -1,0 +1,99 @@
+# Site settings
+title: Plog
+email: 
+description: > # this means to ignore newlines until "baseurl:"
+  Notes to self.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+twitter_username: jhnklly
+github_username:  jhnklly
+
+# Build settings
+#markdown: kramdown
+markdown: redcarpet
+# highlighter: rouge
+highlighter: pygments
+
+markdown_ext:  markdown,mkdown,mkdn,mkd,md
+
+# http://ajoz.github.io/2014/06/29/i-want-my-github-flavored-markdown/
+redcarpet:
+  extensions: ["tables", "autolink", "strikethrough", "space_after_headers", "with_toc_data", "fenced_code_blocks", "no_intra_emphasis", "superscript"]
+
+# Exploiting this config file to store a global object in a single place
+# See 
+
+exploits: 
+
+  - date: 2015-04-27
+    title: yourenottheonlyone
+    tags: 
+        hilo5
+        l4
+    prose:
+        Not sure how this is going to work. Want
+        <ol>
+          <li> jekyll
+          <li> Ideally, all posts in one file
+          <li> Can misuse _config.yml
+          <li> Can use html in config; but not _markdown_
+          <li> editable online (prose.io)
+          <li> anoni mouse
+        </ol>
+        But last two would require paid account? Instead, make this yourenottheonlyone account. Had always wanted to do a public anonymous blog anyway. (Screamsecrets)
+
+  - date: 2015-04-27
+    title: yourenottheonlyone
+    tags: 
+        hilo5
+        l4
+    prose:
+        I want somebody to share
+        Share the rest of my lifetime
+        Share my innnermost thoughts
+        Know my intimate details
+        Someone who'll stand by my side
+        And give me support
+        And in return
+        She'll get my support
+        She will listen to me
+        When I want to speak
+        About the world we live in
+        And life in general
+        Though my views may be wrong
+        They may even be perverted
+        She will hear me out
+        And won't easily be converted
+        To my way of thinking
+        In fact she'll often disagree
+        But at the end of it all
+        She will understand me
+
+        I want somebody who cares
+        For me passionately
+        With every thought and with every breath
+        Someone who'll help me see things
+        In a different light
+        All the things I detest
+        I will almost like
+        I don't want to be tied
+        To anyone's strings
+        I'm carefully trying to steer clear
+        Of those things
+        But when I'm asleep
+        I want somebody
+        Who will put their arms around me
+        And kiss me tenderly
+        Though things like this
+        Make me sick
+        In a case like this
+        I'll get away with it
+
+        
+        Mo(u)rning papers. This music is tough. Going to couples counseling in an hour. Going around town; _so_ _many_ beautiful women. Continues to give me this feeling that lifetime pair bonding is not natural for me (us?). <p>They say that repression is bad. Not admitting this = repression. Not acting on this = repression? <p>But we have some control, right? I repress the urge to tell old boss to eff off. I repress the urge to shag any and every cutie, caveman style. (Also, btw, that'd be a felony. And horrid. But consensual "philandering" is different. But it's still opprobius. Open relationships/marriage; polyamory; year-long serial monogamy?
+
+
+
+
+
+
